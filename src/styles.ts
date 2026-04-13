@@ -1,5 +1,5 @@
 // --- ESTILOS ---
-export const styles = {
+export const styles: any = {
   container: {
     display: 'flex',
     flexDirection: 'column',
@@ -106,4 +106,24 @@ export const styles = {
     marginTop: '10px',
     width: '100%',
   },
+  // ESTILOS DE MENSAJES (FALTANTES)
+  error: {
+    color: '#ef4444', // Rojo
+    backgroundColor: '#fee2e2',
+    padding: '10px',
+    borderRadius: '5px',
+    marginTop: '10px',
+    border: '1px solid #ef4444',
+    textAlign: 'center',
+  },
+  success: {
+    color: '#065f46', // Verde
+    backgroundColor: '#d1fae5',
+    padding: '10px',
+    borderRadius: '5px',
+    marginTop: '10px',
+    border: '1px solid #065f46',
+    textAlign: 'center',
+  },
 };
+
