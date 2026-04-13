@@ -1,5 +1,5 @@
 // --- ESTILOS ---
-export const styles: any = {
+const styles: any = {
   container: {
     display: 'flex',
     flexDirection: 'column',
@@ -126,4 +126,4 @@ export const styles: any = {
     textAlign: 'center',
   },
 };
-
+export default styles;
