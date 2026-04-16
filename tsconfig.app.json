@@ -22,7 +22,7 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
      "noImplicitAny": false,  // <--- AGREGAR ESTO
     "skipLibCheck": true,      // <--- AGREGAR ESTO
   },
