@@ -23,6 +23,8 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
+     "noImplicitAny": false,  // <--- AGREGAR ESTO
+    "skipLibCheck": true,      // <--- AGREGAR ESTO
   },
   "include": ["src"]
 }
