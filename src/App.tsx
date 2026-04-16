@@ -19,7 +19,7 @@ function App() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [trips, setTrips] = useState([]);
+  const [trips, setTrips] = useState([] as any);
   const [tripForm, setTripForm] = useState({
     origin: '',
     destination: '',
@@ -31,9 +31,9 @@ function App() {
   });
   const [message, setMessage] = useState('');
   const [isError, setIsError] = useState(false);
-  const [connections, setConnections] = useState([]);
+  const [connections, setConnections] = useState([] as any);
   const [chatTarget, setChatTarget] = useState<string | null>(null);
-  const [chatMessages, setChatMessages] = useState<any[]>([]);
+  const [chatMessages, setChatMessages] = useState([] as any);
   const [newMessageText, setNewMessageText] = useState('');
 
   // --- EFECTOS ---
