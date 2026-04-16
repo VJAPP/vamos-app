@@ -7,7 +7,7 @@ import TripList from './Components/TripList';
 import Connections from './Components/Connections';
 import PublishTrip from './Components/PublishTrip';
 import PublishRequest from './Components/PublishRequest';
-import styles from './styles';
+
 
 function App() {
   // --- CONFIGURACIÓN ---
