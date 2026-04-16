@@ -1,5 +1,5 @@
 import React from 'react';
-import { styles } from '../styles'; // Importamos estilos generales
+import styles from '../styles'; // Importamos estilos generales
 
 export default function Connections({
   connections,
